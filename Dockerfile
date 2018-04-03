@@ -1,5 +1,5 @@
 FROM openjdk:8-jdk
-MAINTAINER Alexis Duque  <alexisd@rtone.fr>
+MAINTAINER Donato Azevedo  <donatoaz@gmail.com>
 
 ENV SDK_HOME /opt
 
