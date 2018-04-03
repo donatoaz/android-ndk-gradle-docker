@@ -1,5 +1,5 @@
 # Android NDK Gradle
-[![/android-ndk-gradle](http://dockeri.co/image/alexisduque/android-ndk-gradle)](https://hub.docker.com/r/donatoaz/android-ndk-gradle-docker/)
+[![/android-ndk-gradle](http://dockeri.co/image/donatoaz/android-ndk-gradle-docker)](https://hub.docker.com/r/donatoaz/android-ndk-gradle-docker/)
 
 ## Included
 * OpenJDK 8
