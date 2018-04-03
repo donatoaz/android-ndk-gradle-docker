@@ -45,7 +45,7 @@ RUN echo y | android-sdk-linux/tools/android --silent update sdk --no-ui --all -
 #RUN echo y | android-sdk-linux/tools/android --silent update sdk --filter extra --no-ui --force -a
 
 # Android NDK
-ENV ANDROID_NDK_VERSION r13b
+ENV ANDROID_NDK_VERSION r16b
 ENV ANDROID_NDK_URL http://dl.google.com/android/repository/android-ndk-${ANDROID_NDK_VERSION}-linux-x86_64.zip
 RUN curl -L "${ANDROID_NDK_URL}" -o android-ndk-${ANDROID_NDK_VERSION}-linux-x86_64.zip  \
   && unzip android-ndk-${ANDROID_NDK_VERSION}-linux-x86_64.zip -d ${SDK_HOME}  \
